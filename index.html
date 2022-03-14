@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Socket.IO chat</title>
+    <link rel="stylesheet" href="/Stylesheets/styles.css">
+  </head>
+  <body>
+    <ul id="messages"></ul>
+    <div id="deleteMessages">
+      <a id="deleteAll">Delete All</a>
+    </div>
+    <form id="form" action="">
+      <input id="input" autocomplete="off" /><button>Send</button>
+    </form>
+    <script src="/socket.io/socket.io.js"></script>
+    <script defer src="chat.js"></script>
+  </body>
+</html>
